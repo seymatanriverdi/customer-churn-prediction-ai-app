@@ -1,3 +1,11 @@
+## Features
+- Customer churn prediction using Machine Learning
+- XGBoost model with hyperparameter tuning
+- FastAPI backend
+- React frontend
+- Churn probability scoring
+- Risk classification (Low / Medium / High)
+
 # Customer Churn Prediction AI App
 
 An end-to-end machine learning application that predicts customer churn risk using a trained XGBoost model, FastAPI backend, and React frontend.
@@ -62,3 +70,35 @@ Example request:
   "MonthlyCharges": 70,
   "TotalCharges": 1500
 }
+
+### Backend
+```bash
+cd back-end
+uvicorn app:app --reload
+---
+
+## How to Run Frontend
+```md
+### Frontend
+```bash
+cd front-end/churn-frontend
+npm install
+npm run dev
+---
+## API Documentation
+```md
+### Swagger UI
+After starting the backend:
+http://127.0.0.1:8000/docs
+-----
+
+customer-churn-ai-project/
+│
+├── back-end/
+│
+├── front-end/
+│   └── churn-frontend/
+│
+├── training/
+│
+└── README.md
