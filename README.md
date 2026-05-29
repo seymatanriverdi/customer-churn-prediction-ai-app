@@ -71,7 +71,7 @@ Example request:
   "TotalCharges": 1500
 }
 
-### Backend
+## Backend
 ```bash
 cd back-end
 uvicorn app:app --reload
